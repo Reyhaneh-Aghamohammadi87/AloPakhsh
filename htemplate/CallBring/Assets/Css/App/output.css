@@ -256,17 +256,11 @@
   .start-0 {
     inset-inline-start: calc(var(--spacing) * 0);
   }
-  .start-6 {
-    inset-inline-start: calc(var(--spacing) * 6);
-  }
   .start-6\.5 {
     inset-inline-start: calc(var(--spacing) * 6.5);
   }
   .end-0 {
     inset-inline-end: calc(var(--spacing) * 0);
-  }
-  .end-1 {
-    inset-inline-end: calc(var(--spacing) * 1);
   }
   .end-1\/2 {
     inset-inline-end: calc(1/2 * 100%);
@@ -283,9 +277,6 @@
   .top-0 {
     top: calc(var(--spacing) * 0);
   }
-  .top-1 {
-    top: calc(var(--spacing) * 1);
-  }
   .top-1\/2 {
     top: calc(1/2 * 100%);
   }
@@ -300,9 +291,6 @@
   }
   .bottom-0 {
     bottom: calc(var(--spacing) * 0);
-  }
-  .bottom-1 {
-    bottom: calc(var(--spacing) * 1);
   }
   .bottom-1\.5 {
     bottom: calc(var(--spacing) * 1.5);
@@ -351,9 +339,6 @@
     @media (width >= 96rem) {
       max-width: 96rem;
     }
-  }
-  .m-0 {
-    margin: calc(var(--spacing) * 0);
   }
   .m-0\! {
     margin: calc(var(--spacing) * 0) !important;
@@ -800,10 +785,6 @@
     width: calc(var(--spacing) * 6);
     height: calc(var(--spacing) * 6);
   }
-  .size-7 {
-    width: calc(var(--spacing) * 7);
-    height: calc(var(--spacing) * 7);
-  }
   .size-7\.5 {
     width: calc(var(--spacing) * 7.5);
     height: calc(var(--spacing) * 7.5);
@@ -854,9 +835,6 @@
   }
   .max-h-75 {
     max-height: calc(var(--spacing) * 75);
-  }
-  .w-11 {
-    width: calc(var(--spacing) * 11);
   }
   .w-11\/12 {
     width: calc(11/12 * 100%);
@@ -918,25 +896,11 @@
   .flex-1 {
     flex: 1;
   }
-  .flex-shrink {
-    flex-shrink: 1;
-  }
   .shrink-0 {
     flex-shrink: 0;
   }
-  .border-collapse {
-    border-collapse: collapse;
-  }
-  .-translate-x-1 {
-    --tw-translate-x: calc(var(--spacing) * -1);
-    translate: var(--tw-translate-x) var(--tw-translate-y);
-  }
   .-translate-x-1\/2 {
     --tw-translate-x: calc(calc(1/2 * 100%) * -1);
-    translate: var(--tw-translate-x) var(--tw-translate-y);
-  }
-  .-translate-y-1 {
-    --tw-translate-y: calc(var(--spacing) * -1);
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
   .-translate-y-1\/2 {
@@ -1026,13 +990,6 @@
       --tw-space-y-reverse: 0;
       margin-block-start: calc(calc(var(--spacing) * 1.5) * var(--tw-space-y-reverse));
       margin-block-end: calc(calc(var(--spacing) * 1.5) * calc(1 - var(--tw-space-y-reverse)));
-    }
-  }
-  .space-y-2 {
-    :where(& > :not(:last-child)) {
-      --tw-space-y-reverse: 0;
-      margin-block-start: calc(calc(var(--spacing) * 2) * var(--tw-space-y-reverse));
-      margin-block-end: calc(calc(var(--spacing) * 2) * calc(1 - var(--tw-space-y-reverse)));
     }
   }
   .space-y-2\.5 {
@@ -1332,10 +1289,6 @@
   .text-15px {
     font-size: var(--text-15px);
   }
-  .leading-5 {
-    --tw-leading: calc(var(--spacing) * 5);
-    line-height: calc(var(--spacing) * 5);
-  }
   .leading-5\.5 {
     --tw-leading: calc(var(--spacing) * 5.5);
     line-height: calc(var(--spacing) * 5.5);
@@ -1402,16 +1355,9 @@
   .text-white {
     color: var(--color-white);
   }
-  .underline {
-    text-decoration-line: underline;
-  }
   .shadow-sm {
     --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
-  }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
   }
   .outline-1 {
     outline-style: var(--tw-outline-style);
@@ -1942,25 +1888,25 @@
   font-family: "myIranYekan";
   font-weight: normal;
   font-display: swap;
-  src: url("../../fonts/iranyekan/ttf/iranyekanwebregular.ttf") format("truetype"), url("../../fonts/iranyekan/woff/iranyekanwebregular.woff") format("woff");
+  src: url("../../Fonts/iranyekan/ttf/iranyekanwebregular.ttf") format("truetype"), url("../../Fonts/iranyekan/woff/iranyekanwebregular.woff") format("woff");
 }
 @font-face {
   font-family: "myIranYekan";
   font-weight: bold;
   font-display: swap;
-  src: url("../../fonts/iranyekan/ttf/iranyekanwebbold.ttf") format("truetype"), url("../../fonts/iranyekan/woff/iranyekanwebbold.woff") format("woff");
+  src: url("../../Fonts/iranyekan/ttf/iranyekanwebbold.ttf") format("truetype"), url("../../Fonts/iranyekan/woff/iranyekanwebbold.woff") format("woff");
 }
 @font-face {
   font-family: "myPinar";
   font-weight: normal;
   font-display: swap;
-  src: url("../../fonts/pinar/Pinar-Regular.ttf") format("truetype"), url("../../fonts/pinar/Pinar-Regular.woff2") format("woff2");
+  src: url("../../Fonts/pinar/Pinar-Regular.ttf") format("truetype"), url("../../Fonts/pinar/Pinar-Regular.woff2") format("woff2");
 }
 @font-face {
   font-family: "myPinar";
   font-weight: bold;
   font-display: swap;
-  src: url("../../fonts/pinar/Pinar-Bold.ttf") format("truetype"), url("../../fonts/pinar/Pinar-Bold.woff2") format("woff2");
+  src: url("../../Fonts/pinar/Pinar-Bold.ttf") format("truetype"), url("../../Fonts/pinar/Pinar-Bold.woff2") format("woff2");
 }
 body, html {
   font-family: "myIranYekan", sans-serif;
